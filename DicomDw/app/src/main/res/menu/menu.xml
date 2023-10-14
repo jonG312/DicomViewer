@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item_open"
+        android:title="@string/action_open" />
+    <item
+        android:id="@+id/menu_item_save"
+        android:title="@string/action_save" />
+    <item
+        android:id="@+id/menu_item_rotate"
+        android:title="@string/action_rotate" />
+    <item
+        android:id="@+id/menu_item_scale"
+        android:title="@string/action_shrink" />
+    <item
+        android:id="@+id/menu_item_tune"
+        android:title="@string/action_tune" />
+    <item
+        android:id="@+id/menu_item_recovery"
+        android:title="@string/action_recovery" />
+    <item
+        android:id="@+id/menu_item_init"
+        android:title="@string/action_init" />
+    <item
+        android:id="@+id/menu_item_infomation"
+        android:title="@string/action_information"></item>
+
+    <item
+        android:id="@+id/menu_item_detect"
+        android:title="@string/action_detect"></item>
+
+</menu>

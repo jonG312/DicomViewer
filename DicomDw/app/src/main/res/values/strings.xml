@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DicomVW</string>
+    <string name="title_home">Previous</string>
+    <string name="title_dashboard">Number of frames</string>
+    <string name="title_notifications">Next</string>
+    <string name="action_open">open</string>
+    <string name="action_save">save</string>
+    <string name="action_rotate">rotate</string>
+    <string name="action_shrink">zoom</string>
+    <string name="action_tune">adjust color</string>
+    <string name="action_recovery">restore</string>
+
+    <string name="action_init">reset</string>
+    <string name="action_information">Patient information</string>
+
+    <string name="action_detect">disease detection</string>
+</resources>

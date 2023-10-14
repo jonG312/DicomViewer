@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu_activity.ScaleActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/tune_center"
+            android:layout_width="288dp"
+            android:layout_height="62dp"
+            android:layout_above="@+id/tune_radius"
+            android:layout_below="@+id/Scale_textView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="47dp"
+            android:hint="Center" />
+
+        <EditText
+            android:id="@+id/tune_radius"
+            android:layout_width="288dp"
+            android:layout_height="62dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="65dp"
+            android:layout_marginEnd="59dp"
+            android:layout_marginBottom="249dp"
+            android:hint="Radius" />
+
+        <Button
+            android:id="@+id/tune_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="170dp"
+            android:text="取消" />
+
+        <Button
+            android:id="@+id/tune_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="61dp"
+            android:layout_marginBottom="170dp"
+            android:text="确定"/>
+
+        <TextView
+            android:id="@+id/tune_textView"
+            android:layout_width="288dp"
+            android:layout_height="62dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="113dp"
+            android:gravity="center"
+            android:text="Enter the color center and range"
+            android:textSize="60px" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.ConstraintLayout>
